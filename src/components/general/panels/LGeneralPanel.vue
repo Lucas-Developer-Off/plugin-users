@@ -67,8 +67,8 @@ import { internals } from "@/internals";
 import { EIdentifierType } from "@/internals/general.ts";
 
 const options = [
-    { id: EIdentifierType.email, value: "Email" },
-    { id: EIdentifierType.username, value: "Username" }
+    { id: EIdentifierType.email, label: "Email" },
+    { id: EIdentifierType.username, label: "Username" }
 ];
 </script>
 
